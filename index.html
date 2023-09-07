@@ -1,0 +1,1666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Fontawesome Icons-->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Header Area Start -->
+    <header class="header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="header__logo">
+              <a href="#" class="logo__link">Hello, Demo Demo</a>
+            </div>
+          </div>
+          <div class="col-lg-8 header__col">
+            <div class="header__balanceWrapper">
+              <div class="header__equity">
+                <h2 class="header__equityText">
+                  Equity: <span class="equity">966.50</span>
+                </h2>
+                <h2 class="header__balance">
+                  Balance: <span class="balance">€0.00</span>
+                </h2>
+                <button class="header__balanceBtn">
+                  <i class="fa fa-usd" aria-hidden="true"></i>Deposit
+                </button>
+              </div>
+              <div class="header__user">
+                <i class="fa-solid fa-circle-user header__userIcon"></i>
+                <button class="header__userBtn">
+                  Demo Account
+                  <i
+                    class="fa fa-sort-desc header__arrowDown"
+                    aria-hidden="true"
+                  ></i>
+                </button>
+              </div>
+              <div class="header__country">
+                <img
+                  class="header__countryImg"
+                  src="assets/images/country/1.png"
+                  alt=""
+                />
+                <p class="header__countryText">
+                  EN<i
+                    class="fa fa-sort-desc header__countryIcon"
+                    aria-hidden="true"
+                  ></i>
+                </p>
+              </div>
+              <div class="header__settings">
+                <i
+                  class="fa fa-cog header__settingsIcon"
+                  aria-hidden="true"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Area Start -->
+
+    <!-- Main Content Area Start -->
+    <main>
+      <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="content__leftAllItems">
+                <div class="content__quotesArea">
+                  <a class="content__quotesLink" href="#">ALL QUOTES</a>
+                  <a href="#" class="content__favoritesLink">FAVORITE</a>
+                </div>
+                <div class="content__searchArea">
+                  <div class="content__search">
+                    <input
+                      class="content__searchInput"
+                      type="text"
+                      placeholder="Search"
+                    />
+                    <i class="fas fa-search content__searchIcon"></i>
+                  </div>
+                  <div class="content__dropDown">
+                    <select
+                      class="content__formSelect form-select form-select-lg"
+                      aria-label=".form-select-lg example"
+                    >
+                      <option selected>All</option>
+                      <option value="1">Forex</option>
+                      <option value="2">Cfd</option>
+                      <option value="3">Metals</option>
+                      <option value="4">Crypto</option>
+                    </select>
+                    <i
+                      class="fa fa-sort-desc content__formSelectIcon"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                </div>
+                <div class="content__instrumentsArea">
+                  <p class="content__listItems">Instruments</p>
+                  <p class="content__listItems">Bid</p>
+                  <p class="content__listItems">Ask</p>
+                </div>
+                <div class="content__leftBidItems">
+                  <div class="content__leftForexItems">
+                    <h3 class="content__leftForexText">
+                      Forex<i
+                        class="fa fa-sort-desc content__forexIcons"
+                        aria-hidden="true"
+                      ></i>
+                    </h3>
+
+                    <table class="content__table">
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/5.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/6.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCHF</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/7.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/8.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDHJY</td>
+                        <td class="content__tableBid red">0.91261</td>
+                        <td class="content__tableAsk red">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/9.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDYIR</td>
+                        <td class="content__tableBid green">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/12.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/13.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/14.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDTRE</td>
+                        <td class="content__tableBid green">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/15.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/16.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDJKL</td>
+                        <td class="content__tableBid red">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid red">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid green">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid red">0.91261</td>
+                        <td class="content__tableAsk red">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid green">0.91261</td>
+                        <td class="content__tableAsk red">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid red">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/12.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/14.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid green">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid green">0.91261</td>
+                        <td class="content__tableAsk red">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid green">0.91261</td>
+                        <td class="content__tableAsk red">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid red">0.91261</td>
+                        <td class="content__tableAsk green">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr class="content__tableRow">
+                        <td class="content__tableImages">
+                          <i class="fas fa-star content__tableStarIcon"></i
+                          ><img
+                            class="bid__countryImage"
+                            src="assets/images/country/2.png"
+                            alt="country_image"
+                          /><img
+                            class="bid__countryImage"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          /><i
+                            class="fa fa-sort-desc content__bidCountryDownArrow"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                        <td class="content__tableTxt">AUDCAD</td>
+                        <td class="content__tableBid">0.91261</td>
+                        <td class="content__tableAsk">0.91272</td>
+                        <td>
+                          <i
+                            class="fa fa-info-circle content__tableInfoIcon"
+                            aria-hidden="true"
+                          ></i>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+
+                  <div class="content__leftCfdItems">
+                    <h3 class="content__leftCfdText">
+                      Cfd<i
+                        class="fa fa-sort-desc content__cfdIcons"
+                        aria-hidden="true"
+                      ></i>
+                    </h3>
+                  </div>
+
+                  <div class="content__leftMetalItems">
+                    <h3 class="content__leftMetalText">
+                      Metal<i
+                        class="fa fa-sort-desc content__metalIcons"
+                        aria-hidden="true"
+                      ></i>
+                    </h3>
+                  </div>
+
+                  <div class="content__leftCryptoItems">
+                    <h3 class="content__leftCryptoText">
+                      Crypto<i
+                        class="fa fa-sort-desc content__cryptoIcons"
+                        aria-hidden="true"
+                      ></i>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-9">
+              <div class="content__allRightItems">
+                <div class="content__rightButtonsArea">
+                  <a href="#" class="content__rightPlusIconLink"
+                    ><i class="content__rightPlusIcon fa-solid fa-plus"></i
+                  ></a>
+                  <button class="content__rightButton">
+                    <img
+                      class="content__rightBtnImg"
+                      src="assets/images/country/4.png"
+                      alt="btn-img"
+                    /><img
+                      class="content__rightBtnImg2"
+                      src="assets/images/country/9.png"
+                      alt="btn-img"
+                    />
+                    USDCHF
+                    <i class="content__rightButtonIcon fa-solid fa-xmark"></i>
+                  </button>
+                  <button class="content__rightButton">
+                    <img
+                      class="content__rightBtnImg"
+                      src="assets/images/country/6.png"
+                      alt="btn-img"
+                    /><img
+                      class="content__rightBtnImg2"
+                      src="assets/images/country/7.png"
+                      alt="btn-img"
+                    />
+                    GBPUSD
+                    <i class="content__rightButtonIcon fa-solid fa-xmark"></i>
+                  </button>
+                  <button class="content__rightButton">
+                    <img
+                      class="content__rightBtnImg"
+                      src="assets/images/country/10.png"
+                      alt="btn-img"
+                    /><img
+                      class="content__rightBtnImg2"
+                      src="assets/images/country/11.png"
+                      alt="btn-img"
+                    />
+                    USDJPY
+                    <i class="content__rightButtonIcon fa-solid fa-xmark"></i>
+                  </button>
+                  <button class="content__rightButton">
+                    <img
+                      class="content__rightBtnImg"
+                      src="assets/images/country/14.png"
+                      alt="btn-img"
+                    /><img
+                      class="content__rightBtnImg2"
+                      src="assets/images/country/13.png"
+                      alt="btn-img"
+                    />
+                    EURUSD
+                    <i class="content__rightButtonIcon fa-solid fa-xmark"></i>
+                  </button>
+                </div>
+                <div class="content__chartArea">
+                  <div class="content__chart">
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container">
+                      <div
+                        id="tradingview_4e63e"
+                        class="content__mainChart"
+                      ></div>
+                      <div class="tradingview-widget-copyright">
+                        <a
+                          href="https://www.tradingview.com/symbols/NASDAQ-AAPL/"
+                          rel="noopener"
+                          target="_blank"
+                          ><span class="blue-text">AAPL stock chart</span></a
+                        >
+                        by TradingView
+                      </div>
+                    </div>
+                    <!-- TradingView Widget END -->
+                  </div>
+                </div>
+                <div class="content__rightChartListArea">
+                  <div class="content__chartListButtonsArea">
+                    <div class="row">
+                      <div class="col-md-8">
+                        <div class="content__chartListLeftButtons">
+                          <button class="content__chartListButton">
+                            <i
+                              class="content__chartListButtonIcon fa-solid fa-plus"
+                            ></i>
+                            NEW ORDER
+                          </button>
+                          <div
+                            class="content__search content__rightChartSearch"
+                          >
+                            <input
+                              class="content__searchInput"
+                              type="text"
+                              placeholder="Search"
+                            />
+                            <i class="fas fa-search content__searchIcon"></i>
+                          </div>
+                          <div
+                            class="content__dropDown content__rightChartAllSides"
+                          >
+                            <select
+                              class="content__formSelect form-select form-select-lg"
+                              aria-label=".form-select-lg example"
+                            >
+                              <option selected>All Sides</option>
+                              <option value="1">Only Buy</option>
+                              <option value="2">Only Sell</option>
+                            </select>
+                            <i
+                              class="fa fa-sort-desc content__formSelectIcon"
+                              aria-hidden="true"
+                            ></i>
+                          </div>
+                          <div
+                            class="content__dropDown content__rightChartProfits"
+                          >
+                            <select
+                              class="content__formSelect form-select form-select-lg"
+                              aria-label=".form-select-lg example"
+                            >
+                              <option selected>All Sides</option>
+                              <option value="1">Only Buy</option>
+                              <option value="2">Only Sell</option>
+                            </select>
+                            <i
+                              class="fa fa-sort-desc content__formSelectIcon"
+                              aria-hidden="true"
+                            ></i>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="content__chartListRightButtons">
+                          <button class="content__chartListActiveButton active">
+                            ACTIVE (84)
+                          </button>
+                          <button class="content__chartListActiveButton">
+                            PENDING (0)
+                          </button>
+                          <button class="content__chartListActiveButton">
+                            HISTORY
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content__rightChartListTable">
+                    <table>
+                      <tr>
+                        <td class="d0"></td>
+                        <td class="d1">id</td>
+                        <td class="d2">Instruments</td>
+                        <td class="d3">Type</td>
+                        <td class="d4">Amount</td>
+                        <td class="d5">Trade Volume</td>
+                        <td class="d6">Open Rate</td>
+                        <td class="d7">Open Time</td>
+                        <td class="d8">S/L</td>
+                        <td class="d9">T/P</td>
+                        <td class="d10">Swap</td>
+                        <td class="d11">Commission</td>
+                        <td class="d12">Profit/Losses</td>
+                        <td class="d13"></td>
+                        <td class="d14"></td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc red content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 red">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/5.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc red content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 red">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/15.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/16.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Buy</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/12.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc red content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 red">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/6.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/7.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/8.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/9.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc red content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 red">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/19.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Buy</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/4.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/5.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc red content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 red">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/14.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/15.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc green content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 green">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc red content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 red">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="d0">
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/10.png"
+                            alt="country_image"
+                          />
+                          <img
+                            class="content__rightChartListTableImg"
+                            src="assets/images/country/11.png"
+                            alt="country_image"
+                          />
+                        </td>
+                        <td class="d1">264543</td>
+                        <td class="d2">
+                          EURUSD
+                          <i
+                            class="fa fa-sort-desc red content__chartListrightTableIcon"
+                          ></i>
+                        </td>
+                        <td class="d3">Sell</td>
+                        <td class="d4">0.01</td>
+                        <td class="d5">1063.27</td>
+                        <td class="d6">1.06083</td>
+                        <td class="d7">19/12/22 | 14:22:43</td>
+                        <td class="d8">0.00000</td>
+                        <td class="d9">0.00000</td>
+                        <td class="d10">-€0.01</td>
+                        <td class="d11">-€0.00</td>
+                        <td class="d12 red">-€2.73</td>
+                        <td class="d13"><i class="fa fa-cog"></i></td>
+                        <td class="d14 btn">
+                          1.06362
+                          <i
+                            class="content__chartListRightTableIcon fa-solid fa-xmark"
+                          ></i>
+                        </td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Main Content Area End -->
+
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Js -->
+    <script src="assets/js/main.js"></script>
+
+    <!-- Plugins for Chart -->
+    <script
+      type="text/javascript"
+      src="https://s3.tradingview.com/tv.js"
+    ></script>
+    <script type="text/javascript">
+      new TradingView.widget({
+        autosize: true,
+        symbol: "NASDAQ:AAPL",
+        interval: "D",
+        timezone: "Etc/UTC",
+        theme: "dark",
+        style: "1",
+        locale: "en",
+        toolbar_bg: "#f1f3f6",
+        enable_publishing: false,
+        allow_symbol_change: true,
+        container_id: "tradingview_4e63e",
+      });
+    </script>
+  </body>
+</html>
